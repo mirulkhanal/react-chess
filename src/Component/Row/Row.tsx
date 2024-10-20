@@ -8,6 +8,8 @@ const Row = ({ row, number }: { row: string[]; number: number }) => {
         <Cell
           rowNumber={number}
           calculableNumber={cellIndex + 1 + number}
+          key={cellIndex}
+          cellIndex={cellIndex}
           value={cell}
         />
       ))}
