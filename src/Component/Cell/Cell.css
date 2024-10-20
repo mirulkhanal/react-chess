@@ -1,0 +1,17 @@
+.cell{
+    width:100px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cell>img{
+    width: 95%;
+}
+.dark{
+    
+    background-color: green;
+}
+.light{
+    background-color: white;
+}
